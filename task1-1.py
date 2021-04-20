@@ -1,6 +1,6 @@
 from cv2 import cv2
 
-img = cv2.imread("D:\\chair.jpg")
+img = cv2.imread("chair.jpg")
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 width, height = gray.shape
